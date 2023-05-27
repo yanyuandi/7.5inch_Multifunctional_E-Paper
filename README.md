@@ -66,7 +66,7 @@ $conn = new mysqli('你的服务器数据库地址', 'root', '数据库密码', 
 
 
 ### 实物图效果展示
-
+-背面支架可拆卸，后期会设计上墙套件跟上冰箱磁吸套件
 ![image](jpg/109A0671.jpg)
 ![image](jpg/109A0673.jpg)
 ![image](jpg/109A0676.jpg)
