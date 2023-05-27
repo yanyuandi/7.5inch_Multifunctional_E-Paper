@@ -1,0 +1,178 @@
+body {
+  font-family: "Microsoft YaHei", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*height: 100vh;*/
+  margin: 0;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+/*div {
+  text-align: left;
+  
+  white-space: nowrap;
+
+}*/
+.weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  text-align: left;
+  align-content:flex-end;
+  align-items: flex-start
+
+}
+
+.weather2 {
+  margin-top: 20px;
+}
+
+.weather2 p {
+  margin: 0;
+  text-align: left;
+}
+
+form {
+  text-align: center;
+}
+
+hr {
+
+  width: 500px;
+  border-color: #5581ff;
+  height: 0px;
+
+}
+
+
+
+button {
+  padding: 6px;
+  background-color: #5581ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #516dbf;
+}
+
+p {
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 22px;
+    display: inline-block;
+  white-space: nowrap;
+  }
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+/* 为 input 添加样式 */
+input {
+  padding: 8px; /* 内边距 */
+  font-size: 16px; /* 字体大小 */
+  border: 1px solid #ccc; /* 边框 */
+  border-radius: 5px; /* 圆角 */
+  box-shadow: inset 0px 2px 2px rgba(0,0,0,0.1); /* 内阴影 */
+}
+
+/* 当输入框获得焦点时添加样式 */
+input:focus {
+  outline: none; /* 移除默认的外描边效果 */
+  border-color: #6b9ce9; /* 修改边框颜色 */
+  box-shadow: inset 0px 2px 2px rgba(0,0,0,0.1), 0px 0px 5px #6b9ce9; /*添加投影*/
+}
+
+
+
+
+
+
+/* 移动设备 */
+@media screen and (max-width: 480px) {
+  /* 调整标题字体大小和间距 */
+
+
+
+  body {
+  font-family: "Microsoft YaHei", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*height: 100vh;*/
+  margin: 0;
+   }
+  h1 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  /* 调整表单字段样式 */
+  form label, input {
+    display: block;
+    width: 100%;
+
+    margin-bottom: 10px;
+  }
+
+  /* 调整提交按钮样式 */
+  form button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    
+    margin: 2px auto 22px;
+  }
+
+  /* 调整每个待办事项的样式 */
+  p {
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 20px;
+    display: inline-block;
+   white-space: nowrap;
+  }
+
+  hr {
+
+  width: 500px;
+  border-color: #5581ff;
+  height: 0px;
+
+}
+  div {
+
+   
+   white-space: nowrap;
+
+}
+.weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  text-align: left;
+  align-content:flex-end;
+  align-items: flex-start
+
+}
+
+
+
+}
