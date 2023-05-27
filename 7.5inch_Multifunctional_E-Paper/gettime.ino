@@ -73,7 +73,7 @@ void time_get() {
   filter_data["shengxiao"] = true;
   filter_data["line11"] = true;
 
-  StaticJsonDocument<256> doc;
+  StaticJsonDocument<2560> doc;
 
   DeserializationError error = deserializeJson(doc, http.getString(), DeserializationOption::Filter(filter));
 
