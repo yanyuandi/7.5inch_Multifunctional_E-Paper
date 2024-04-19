@@ -73,5 +73,5 @@ $conn = new mysqli('你的服务器数据库地址', 'root', '数据库密码', 
 ![image](jpg/109A0672.jpg)
 ![image](jpg/109A0674.jpg)
 ### 🌟制作不易，感谢支持🌟
-![image](yanyuandi/FastFreshBWOnColor/jpg/赞赏码.jpg)
+![image](jpg/赞赏码.jpg)
 
