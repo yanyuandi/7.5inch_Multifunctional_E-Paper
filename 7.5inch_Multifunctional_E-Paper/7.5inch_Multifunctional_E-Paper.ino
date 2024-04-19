@@ -73,11 +73,10 @@ void setup() {
   wifiManager.autoConnect("桌面多功能E-paper");  //wifiManager自动配网开始
   Serial.println("连接结果2:");
   Serial.println(WiFi.waitForConnectResult());
-  uint8_t i = 0;
-  if (WiFi.status() == WL_CONNECTED) {
-    i = 0;
-    Serial.print("NTP");
-    configTime(TZ_SEC, DST_SEC, "ntp1.aliyun.com");  // 向 NTP 服务器请求时间，使用给定的时区和夏令时参数
+   if (time(nullptr) < 1000000000) {
+    // 如果没有获取过时间，重新获取时间
+    uint8_t i = 0;
+    configTime(TZ_SEC, DST_SEC, "ntp1.aliyun.com", "ntp2.aliyun.com");
     while ((time(nullptr) < 1000000000) & (i < 20)) {
       i++;
       Serial.print(".");
